@@ -1,6 +1,6 @@
 Visit this [google doc](https://docs.google.com/document/d/1EG3i_k0jn6m6g7_XsEmbCU69NzWLJBCarj5slmoI0LU/edit#heading=h.ytzg5sxgmhge) for a detailed roadmap, keywords for tutorials and other tutorial ideas/brainstorms. 
 
-## LicenseXenko Game studio - Basics
+## Xenko Game studio - Basics
 Learn all the basics to get started. Sample project will be uploaded soon.
 
 1. [Xenko launcher](https://www.youtube.com/watch?v=JO9XusgPi8w)
@@ -15,6 +15,7 @@ Learn all the basics to get started. Sample project will be uploaded soon.
 8. [Models](https://www.youtube.com/watch?v=55WSNO3YHos)
 8. [Physics intro](https://www.youtube.com/watch?v=mgetdOlGiHc)
 1. [Static colliders](https://www.youtube.com/watch?v=IemIKqbR5o8)
+1. Rigidbodies... Coming soon..
 
-## LicenseXenko C# basics
-Basic C# samples. Comming soon.
+## Xenko C# basics
+Basic C# samples. Coming soon.
