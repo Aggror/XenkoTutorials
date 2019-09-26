@@ -36,7 +36,7 @@ namespace CSharpBasics.Code
             //We retrieve a float value from the virtual button. When the value is higher than 0, we now that we have at least of keys or mouse pressed
             var movingForward = Input.GetVirtualButton(0, "Forward");
 
-            DebugText.Print("Holding down either W, the Up arrow or holding down the left mouse button, will result in a rotating blue theapot.", new Int2(50, 120));
+            DebugText.Print("Hold down W, the Up arrow or the left mouse button, to rotate the blue theapot", new Int2(50, 120));
             DebugText.Print("Virtual button Forward: " + movingForward, new Int2(50, 160));
             if (movingForward > 0)
             {

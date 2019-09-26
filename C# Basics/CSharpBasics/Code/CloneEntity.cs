@@ -23,6 +23,7 @@ namespace CSharpBasics.Code
             //We can add a cloned entity to the root of the scene. 
             //The cloned entity will be at the same worldposition as the original entity.
             entityClone1 = entityToClone.Clone();
+            //We can retrieve the current scene using SceneSystem class
             SceneSystem.SceneInstance.RootScene.Entities.Add(entityClone1);
             entityClone1.Transform.Position += new Vector3(-1, 0, 0); //Move it to the right so that we can see it
             entityClone1.Transform.Scale = new Vector3(0.5f);

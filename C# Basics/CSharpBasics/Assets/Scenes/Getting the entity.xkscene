@@ -81,5 +81,5 @@ Hierarchy:
                         Model: 5178da4c-69ec-4123-a502-ef9925474f3d:Models/Sphere
                         Materials:
                             0944ccdb2e13484e06b8de9bfe3e665f~0: ca5e832c-0dc0-42e8-bd85-fcb24bfd34f1:Materials/Green
-                    6c32ea3047711820b58a03b63881132c: !CSharpBasics.Code.GettingTheEntity,CSharpBasics
+                    245bdab101ad96e5e3157274eb6ad08d: !CSharpBasics.Code.GettingTheEntity,CSharpBasics
                         Id: bbebde3b-2b09-4f14-bba1-70bef89d8a8f

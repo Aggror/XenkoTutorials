@@ -1,28 +1,29 @@
 !SceneAsset
-Id: ba8ed57d-74b9-4121-baf0-6a92463b600a
+Id: d8597439-175b-42b3-81ca-d6553655e38f
 SerializedVersion: {Xenko: 3.1.0.1}
 Tags: []
 ChildrenIds: []
 Offset: {X: 0.0, Y: 0.0, Z: 0.0}
 Hierarchy:
     RootParts:
-        - ref!! 61b4fab8-dcaa-4fca-b6bc-3c22885bbd15
-        - ref!! 0384dbde-4ce0-4303-8a88-392565c3b1e7
-        - ref!! 9ad6111c-5ccd-43a6-9673-ecf51bf7fb83
-        - ref!! b966ca42-ec4d-4e3e-8521-eb46e9d79b01
+        - ref!! 1c223e09-30bc-440d-ac99-9fa71b222ed8
+        - ref!! 0a62f7c1-e7d7-4c45-bcbb-4734d032e049
+        - ref!! 5cc2acd7-612d-4909-a9db-0b585c2fb758
+        - ref!! 151aa1ab-94e1-4cff-9468-bdecca74d431
+        - ref!! c62cca56-05b7-4d27-8563-8b46f5063d46
     Parts:
         -   Entity:
-                Id: 0384dbde-4ce0-4303-8a88-392565c3b1e7
+                Id: 0a62f7c1-e7d7-4c45-bcbb-4734d032e049
                 Name: Directional light
                 Components:
                     cf26351dfd6822268d36b77072bcc655: !TransformComponent
-                        Id: 8f6a8c0b-fcc0-42fe-bb21-b8c963a671ce
+                        Id: bda836ab-306c-4c7a-bd32-e2a330c93ff3
                         Position: {X: 100.0, Y: 0.0, Z: 0.0}
                         Rotation: {X: 1.131334E-08, Y: 0.9659258, Z: 0.258819044, W: -4.222196E-08}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
                     e3f271d9c2060484c44e8dfef59ed0e3: !LightComponent
-                        Id: 8f429981-ee5d-4fdb-b6cf-5bc2ec86ff6b
+                        Id: 1199f30e-aaff-4f0e-953a-a9a7b30b9e22
                         Type: !LightDirectional
                             Color: !ColorRgbProvider
                                 Value: {R: 1.0, G: 1.0, B: 1.0}
@@ -37,52 +38,62 @@ Hierarchy:
                                 BiasParameters: {}
                         Intensity: 20.0
         -   Entity:
-                Id: 61b4fab8-dcaa-4fca-b6bc-3c22885bbd15
+                Id: 151aa1ab-94e1-4cff-9468-bdecca74d431
+                Name: Theapot1
+                Components:
+                    f8eee6f467c9263f9fdd120f5463f988: !TransformComponent
+                        Id: b5b64465-855c-41ab-8c2c-2d69f682f0f7
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    4f47c77ee024a8d155df2dde9999f228: !CSharpBasics.Code.RemoveEntities,CSharpBasics
+                        Id: ffa4b832-1a5e-4d68-9929-a7d5ce53d969
+                        entityToClone: ref!! c62cca56-05b7-4d27-8563-8b46f5063d46
+        -   Entity:
+                Id: 1c223e09-30bc-440d-ac99-9fa71b222ed8
                 Name: Camera
                 Components:
                     d5dd94550dc377d8b1703c74aae2cee5: !TransformComponent
-                        Id: fc51bc89-fea6-4364-8ea8-7a5cbd129c26
-                        Position: {X: 0.0, Y: 2.0, Z: -4.0}
-                        Rotation: {X: 5.70548142E-09, Y: 0.9914449, Z: 0.1305262, W: -4.33374332E-08}
+                        Id: 5d2f8663-8d7e-46f2-8cb9-0459931bad22
+                        Position: {X: -1.0, Y: 3.0, Z: -6.0}
+                        Rotation: {X: -7.915897E-09, Y: -0.9848077, Z: -0.173648179, W: 7.343504E-08}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
                     f1cc2f84c67fbd3cc50a22dd0ef605a5: !CameraComponent
-                        Id: a4863eb1-9536-452b-b2c6-8245176de4fe
+                        Id: a17987aa-7e21-4216-9ed5-e5c710aadabf
                         Name: null
                         Projection: Perspective
                         Slot: c9cb3666-f711-498c-9878-292e79ed7993
         -   Entity:
-                Id: 9ad6111c-5ccd-43a6-9673-ecf51bf7fb83
+                Id: 5cc2acd7-612d-4909-a9db-0b585c2fb758
                 Name: Skybox light
                 Components:
                     88b62d474d21080cf1a760192a108619: !TransformComponent
-                        Id: 11d180c6-cef2-4708-b87d-b610ce00c78e
+                        Id: f4dd9eea-b536-47f6-99e5-53749add2b84
                         Position: {X: 100.0, Y: 0.0, Z: 0.0}
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
                     b6410438b41b6be62428102415f68a4e: !LightComponent
-                        Id: c7b7f037-0efe-4e90-82df-5e6e0ce942d8
+                        Id: eccbcde2-50eb-4c23-9477-7719fe9c646e
                         Type: !LightSkybox
                             Skybox: ae4fd991-6290-4c24-b73b-25d81a1a4837:Materials/Skybox
                     073131bbebf95a3cbbe2d431328d38b1: !BackgroundComponent
-                        Id: c655aa84-0bb8-4c4c-8af2-e445882907c8
+                        Id: 9a364f62-ae38-4408-b00b-4583728d1293
                         Texture: b7f73672-f9bf-44ae-8a04-0017010b4ca1:Materials/Skybox texture
         -   Entity:
-                Id: b966ca42-ec4d-4e3e-8521-eb46e9d79b01
-                Name: Theapot-Parent
+                Id: c62cca56-05b7-4d27-8563-8b46f5063d46
+                Name: Entity to clone
                 Components:
                     f8eee6f467c9263f9fdd120f5463f988: !TransformComponent
-                        Id: cc767825-0a39-4a11-bba1-c045b6bb0bc0
+                        Id: 80022a51-92f1-4b7c-bae7-dccd8a3e10e2
                         Position: {X: 0.0, Y: 0.0, Z: 0.0}
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
                     3633cb40f574236299aec88b18c090d2: !ModelComponent
-                        Id: e3607a8d-6c36-4850-b68b-79c45bb9fa49
+                        Id: b2225cb9-556e-4799-b467-8d3e794a2d9a
                         Model: 9a3a7dbc-7b08-478a-aab2-19afe1d6ce1c:Models/Teapot
-                        Materials: {}
-                    146028064f064d21c3adbbb101a2579a: !CSharpBasics.Code.AmmoComponent,CSharpBasics
-                        Id: 5198aaf6-8c5a-4af7-bdc5-17fe0c6f471e
-                    3049fb489e131de4cf40ac315b6c70ce: !CSharpBasics.Code.GettingAComponent,CSharpBasics
-                        Id: 5d5a6fea-6e59-4913-8b0b-9e9e6053bef1
+                        Materials:
+                            e1d8cfb93adefdffb6faa2cc9c0926bd~0: 619de649-4998-4996-bd74-085eaffdbbeb:Materials/Yellow

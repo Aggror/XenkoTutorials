@@ -95,7 +95,7 @@ Hierarchy:
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
-                    93010421fe7bb7ffe04b570d77bf1a13: !CSharpBasics.Code.MouseInput,CSharpBasics
+                    9f131d46dd3ff2a68c3ba8a445624898: !CSharpBasics.Code.MouseInput,CSharpBasics
                         Id: 444c65ff-1321-46b1-8652-4e472ddcdc31
                         blueTheapot: ref!! 6d396448-ba38-4c5e-9ed5-9340b8fefc64
                         yellowTheapot: ref!! 216b026f-a9fc-4b2b-9e67-1c0f155a75e2
