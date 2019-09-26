@@ -18,4 +18,4 @@ Learn all the basics to get started. Sample project will be uploaded soon.
 1. Rigidbodies... Coming soon..
 
 ## Xenko C# basics
-Basic C# samples. Coming soon.
+Basic C# samples. Will be referenced by Xenko tutorials page main documentation.
